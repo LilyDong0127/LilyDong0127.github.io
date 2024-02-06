@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>python</title>
-    <url>/2024/02/06/python/</url>
+    <title>Hexo 使用教程--自用版</title>
+    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>Python</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -20,6 +20,126 @@
       </categories>
       <tags>
         <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>markdown 使用教程</title>
+    <url>/2024/02/06/markdown-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>段落换行是两个空格以上加上回车<br>段落后面使用一个空行来表示重新开始一个段落</p>
+<p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em><br><em><strong>粗斜体文本</strong></em></p>
+<p>分割线：可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<p><del>删除线</del><br><u>带下划线文本</u></p>
+<p>创建脚注格式类似这样 [^标注]。<br>[^标注]: 这是一个标注</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ol>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+<li><p>第一项：</p>
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li><p>第二项：</p>
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>区块引用</p>
+</blockquote>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><code>printf()</code> 函数</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="title function_">alert</span>(<span class="string">&#x27;print&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python</title>
+    <url>/2024/02/06/python/</url>
+    <content><![CDATA[<p>python学习 </p>
+<p>变量</p>
+<p><strong>变量</strong></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
