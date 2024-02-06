@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Python Study</title>
-    <url>/2024/02/04/python/Python/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/02/06/javascript/js/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>python</title>
     <url>/2024/02/06/python/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>python</category>
+        <category>Python</category>
       </categories>
       <tags>
         <tag>python</tag>
