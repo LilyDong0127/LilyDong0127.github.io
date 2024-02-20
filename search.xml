@@ -5,7 +5,7 @@
     <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
     <content><![CDATA[<ul>
 <li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
-<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &lt;title&gt;</code> </li>
+<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
 <li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
 <li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
 <li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
@@ -167,6 +167,17 @@
       </categories>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>matlab</title>
+    <url>/2024/02/20/matlab/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>matlab</category>
+      </categories>
+      <tags>
+        <tag>matlab</tag>
       </tags>
   </entry>
 </search>
