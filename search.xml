@@ -20,20 +20,6 @@
       </tags>
   </entry>
   <entry>
-    <title>python</title>
-    <url>/2024/02/06/python/</url>
-    <content><![CDATA[<p>python学习 </p>
-<p>变量</p>
-<p><strong>变量</strong></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>javascript</title>
     <url>/2024/02/06/javascript/</url>
     <content><![CDATA[]]></content>
@@ -148,6 +134,20 @@
       </categories>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python</title>
+    <url>/2024/02/06/python/</url>
+    <content><![CDATA[<p>python学习 </p>
+<p>变量</p>
+<p><strong>变量</strong></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
