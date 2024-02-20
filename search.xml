@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Matlab</title>
+    <url>/2024/02/20/matlab/</url>
+    <content><![CDATA[<p>matlab</p>
+]]></content>
+      <categories>
+        <category>Matlab</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo 使用教程--自用版</title>
     <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
     <content><![CDATA[<ul>
@@ -17,18 +29,6 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Matlab</title>
-    <url>/2024/02/20/matlab/</url>
-    <content><![CDATA[<p>matlab</p>
-]]></content>
-      <categories>
-        <category>Matlab</category>
-      </categories>
-      <tags>
-        <tag>Matlab</tag>
       </tags>
   </entry>
   <entry>
