@@ -84,7 +84,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">936</span>
+            <span class="post-count">1.9k</span>
         </span>
     </span>
 
@@ -93,7 +93,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">3 min</span>
+            <span class="post-count">7 min</span>
         </span>
     </span>
 </div>
@@ -130,34 +130,161 @@
 <li>单行注释：<code>#</code></li>
 <li>多行注释：<code>&#39;&#39;&#39;*&#39;&#39;&#39;</code>或者<code>&quot;&quot;&quot;**&quot;&quot;&quot;</code></li>
 </ul>
-<h3 id="行与缩进"><a href="#行与缩进" class="headerlink" title="行与缩进"></a>行与缩进</h3><p><em>python最具特色的就是使用缩进来表示代码块，不需要使用大括号 {}。</em><br>缩进的空格数是可变的，但是同一个代码块的语句必须包含相同的缩进空格数。实例如下：<br>实例(Python 3.0+)</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">if True:</span><br><span class="line">    print (&quot;True&quot;)</span><br><span class="line">else:</span><br><span class="line">    print (&quot;False&quot;)</span><br></pre></td></tr></table></figure>
-<p><em>缩进不一样会导致运行错误，请注意~</em><br>如果一行太长了，可以使用反斜杠进行断句<code>\</code></p>
-<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><h4 id="数字类型-Number"><a href="#数字类型-Number" class="headerlink" title="数字类型(Number)"></a>数字类型(Number)</h4><ul>
+<h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3><ul>
+<li>在 python 用 import 或者 from…import 来导入相应的模块。</li>
+<li>将整个模块(somemodule)导入，格式为：import somemodule</li>
+<li>从某个模块中导入某个函数,格式为：from somemodule import somefunction</li>
+<li>从某个模块中导入多个函数,格式为：from somemodule import firstfunc,secondfunc,thirdfunc</li>
+<li>将某个模块中的全部函数导入，格式为：from somemodule import *</li>
+</ul>
+<h3 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h3><ul>
+<li>python中，标识符由数字，字母，下划线组成（无其他组成成分），但是不可以以数字开头，且区分大小写</li>
+<li>以下划线开头的标识符是有特殊意义的。以单下划线开头 _foo 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 from xxx import * 而导入.</li>
+<li>以双下划线开头的 ‘__foo’ 代表类的私有成员，以双下划线开头和结尾的 <code>__foo__</code> 代表 Python 里特殊方法专用的标识，如 <code>__init__()</code> 代表类的构造函数。</li>
+</ul>
+<h3 id="行与缩进"><a href="#行与缩进" class="headerlink" title="行与缩进"></a>行与缩进</h3><ul>
+<li>python不用大括号<code>&#123;&#125;</code>来表达一个类，而是用相同的缩进来代表一个模块。</li>
+<li><em>缩进不一样会导致运行错误，请注意~</em></li>
+<li>如果一行太长了，可以使用反斜杠进行断句<code>\</code></li>
+</ul>
+<h3 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h3><p>利用print输出，<code>print()</code></p>
+<h3 id="python3基本数据类型"><a href="#python3基本数据类型" class="headerlink" title="python3基本数据类型"></a>python3基本数据类型</h3><ul>
+<li>python中，变量不需要声明，但是使用前必须赋值！(用等号即赋值)只有赋值操作之后，这个变量才会被创建。</li>
+<li>Python3 中常见的数据类型有：<ul>
+<li>Number（数字）</li>
+<li>String（字符串）</li>
+<li>bool（布尔类型）</li>
+<li>List（列表）</li>
+<li>Tuple（元组）</li>
+<li>Set（集合）</li>
+<li>Dictionary（字典）</li>
+</ul>
+</li>
+<li>Python3 的六个标准数据类型中：<ul>
+<li>不可变数据（3 个）：Number（数字）、String（字符串）、Tuple（元组）；</li>
+<li>可变数据（3 个）：List（列表）、Dictionary（字典）、Set（集合）。</li>
+</ul>
+</li>
+<li>此外还有一些高级的数据类型，如: 字节数组类型(bytes)。</li>
+</ul>
+<h4 id="数字类型-Number"><a href="#数字类型-Number" class="headerlink" title="数字类型(Number)"></a>数字类型(Number)</h4><ul>
 <li>整数：int (整数), 如 1，2，3等, 只有一种整数类型 int，表示为长整型。<em>没有 python2 中的 Long</em></li>
 <li>浮点数：float,如1.2等</li>
 <li>布尔型：bool (布尔), 只有True或false。</li>
 <li>复数：complex (复数),如j，2+j等</li>
+<li>内置type()函数可以用来查询变量所指的对象类型，或者用isinstance()方法进行判断<ul>
+<li>isinstance 和 type 的区别在于：type()不会认为子类是一种父类类型。isinstance()会认为子类是一种父类类型。</li>
+</ul>
+</li>
 </ul>
 <h4 id="字符串类型-String"><a href="#字符串类型-String" class="headerlink" title="字符串类型(String)"></a>字符串类型(String)</h4><ul>
-<li>Python中单引号’和双引号’使用完全相同(但是不可以混用，单引号用单引号结尾，双引号用双引号结尾)</li>
+<li>Python中单引号’和双引号”使用完全相同(但是不可以混用，单引号用单引号结尾，双引号用双引号结尾)</li>
 <li>使用三引号(‘’’ 或 “””)可以指定一个多行字符串，一般是这个格式：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#x27;&#x27;&#x27;</span><br><span class="line">if True:</span><br><span class="line">    print (&quot;True&quot;)</span><br><span class="line">else:</span><br><span class="line">    print (&quot;False&quot;)</span><br><span class="line">&#x27;&#x27;&#x27;</span><br></pre></td></tr></table></figure></li>
-<li>转义符:反斜杠可以用来转义，使用 r 可以让反斜杠不发生转义。<em>如r”this is a line with \n”则\n会显示,并不是换行。</em></li>
-<li>按字面意义级联字符串，如”this””is “”string”会被自动转换为this is string。</li>
+<li>转义符:反斜杠可以用来转义，使用r可以让反斜杠不发生转义。<em>如r”this is a line with \n”则\n会显示,并不是换行。</em></li>
+<li>按字面意义级联字符串，如”this””is””string”会被自动转换为this is string。</li>
 <li>字符串可以用 + 运算符连接在一起，用 * 运算符重复表达。</li>
 <li>Python 中的字符串有两种索引方式，从左往右以 0 开始，从右往左以 -1 开始。</li>
-<li>Python 中的字符串不能改变。</li>
+<li><strong>Python 中的字符串不能改变。</strong></li>
 <li>Python 没有单独的字符类型，一个字符就是长度为 1 的字符串。</li>
 <li>字符串的截取的语法格式如下：<code>变量[头下标:尾下标:步长]</code></li>
 </ul>
-<h3 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h3><p>利用print输出，<code>print()</code></p>
-<h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3><ul>
-<li>在 python 用 import 或者 from…import 来导入相应的模块。</li>
-<li>将整个模块(somemodule)导入，格式为： import somemodule</li>
-<li>从某个模块中导入某个函数,格式为： from somemodule import somefunction</li>
-<li>从某个模块中导入多个函数,格式为： from somemodule import firstfunc, secondfunc, thirdfunc</li>
-<li>将某个模块中的全部函数导入，格式为： from somemodule import *</li>
+<h3 id="布尔类型-bool"><a href="#布尔类型-bool" class="headerlink" title="布尔类型(bool)"></a>布尔类型(bool)</h3><ul>
+<li>python中，True和false都是关键字，表示为布尔值</li>
+<li>布尔值只有true或者false</li>
+<li>布尔值可以和其他数据类型进行比较。在比较时，True视为1，False视为0</li>
 </ul>
+<h3 id="列表（list）"><a href="#列表（list）" class="headerlink" title="列表（list）"></a>列表（list）</h3><ul>
+<li>列表是写在方括号 [] 之间、用逗号分隔开的元素列表。</li>
+<li>和字符串一样，列表同样可以被索引和截取，列表被截取后返回一个包含所需元素的新列表。</li>
+<li>列表截取的语法格式如下：<code>变量[头下标:尾下标]</code></li>
+<li>列表中的元素是可以改变的!</li>
+</ul>
+<h3 id="元组-Tuple"><a href="#元组-Tuple" class="headerlink" title="元组(Tuple)"></a>元组(Tuple)</h3><ul>
+<li>元组写在小括号()里，元素之间用逗号隔开</li>
+<li>可以把字符串看成一种特殊的元组</li>
+</ul>
+<h3 id="集合-Set"><a href="#集合-Set" class="headerlink" title="集合(Set)"></a>集合(Set)</h3><ul>
+<li>set是一种无序，可变的数据类型。用于存储唯一的元素。</li>
+<li>集合中的元素，一定不会重复。且可以进行交集并集差集等常见的集合操作。</li>
+<li>一个空集合并须用set()创建。直接用{}创建的是一个字典。</li>
+</ul>
+<h3 id="字典-Dictionary"><a href="#字典-Dictionary" class="headerlink" title="字典(Dictionary)"></a>字典(Dictionary)</h3><ul>
+<li>字典是无序的对象集合。字典中的元素是通过键值对进行存取，而不是通过偏移存取。</li>
+<li>字典是一种映射类型，用{}标识，它是一个无序的key(键):value(值)的集合。</li>
+<li>key必须是不可变类型。同一字典中，key必须是唯一的。</li>
+</ul>
+<h3 id="bytes类型"><a href="#bytes类型" class="headerlink" title="bytes类型"></a>bytes类型</h3><ul>
+<li>bytes 类型表示的是不可变的二进制序列（byte sequence）</li>
+<li>与字符串类型不同的是，bytes 类型中的元素是整数值（0 到 255 之间的整数），而不是 Unicode 字符</li>
+</ul>
+<h3 id="python中的数据类型转换"><a href="#python中的数据类型转换" class="headerlink" title="python中的数据类型转换"></a>python中的数据类型转换</h3><table>
+<thead>
+<tr>
+<th>函数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>int(x,[base])</td>
+<td>将x转换为一个整数</td>
+</tr>
+<tr>
+<td>float(x)</td>
+<td>将x转换到一个浮点数</td>
+</tr>
+<tr>
+<td>complex(real [,imag])</td>
+<td>创建一个复数</td>
+</tr>
+<tr>
+<td>str(x)</td>
+<td>将对象 x 转换为字符串</td>
+</tr>
+<tr>
+<td>repr(x)</td>
+<td>将对象 x 转换为表达式字符串</td>
+</tr>
+<tr>
+<td>eval(str)</td>
+<td>用来计算在字符串中的有效Python表达式,并返回一个对象</td>
+</tr>
+<tr>
+<td>tuple(s)</td>
+<td>将序列 s 转换为一个元组</td>
+</tr>
+<tr>
+<td>list(s)</td>
+<td>将序列 s 转换为一个列表</td>
+</tr>
+<tr>
+<td>set(s)</td>
+<td>转换为可变集合元格</td>
+</tr>
+<tr>
+<td>dict(d)</td>
+<td>创建一个字典。d 必须是一个 (key, value)元组序列。</td>
+</tr>
+<tr>
+<td>frozenset(s)</td>
+<td>转换为不可变集合</td>
+</tr>
+<tr>
+<td>chr(x)</td>
+<td>将一个整数转换为一个字符</td>
+</tr>
+<tr>
+<td>ord(x)</td>
+<td>将一个字符转换为它的整数值</td>
+</tr>
+<tr>
+<td>hex(x)</td>
+<td>将一个整数转换为一个十六进制字符串</td>
+</tr>
+<tr>
+<td>oct(x)</td>
+<td>将一个整数转换为一个八进制字符串</td>
+</tr>
+</tbody></table>
  
       <!-- reward -->
       
@@ -599,6 +726,42 @@
 
     
     
+<script>
+  const password = "111222";
+  const lock_password = window.sessionStorage.getItem("lock_password");
+  console.log(password, lock_password);
+  if (lock_password !== password) {
+    Swal.fire({
+      title: "Please enter password",
+      input: "text",
+      inputAttributes: {
+        autocapitalize: "off",
+      },
+      showCancelButton: false,
+      showLoaderOnConfirm: true,
+      allowOutsideClick: false,
+      confirmButtonText: "Ok",
+    }).then((result) => {
+      console.log(result);
+      if (result.isConfirmed) {
+        console.log(password);
+        if (result.value === password) {
+          window.sessionStorage.setItem("lock_password", result.value);
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Incorrect password, please try again",
+            confirmButtonText: "Ok",
+            allowOutsideClick: false,
+          }).then(() => {
+            window.location.reload();
+          });
+        }
+      }
+    });
+  }
+</script>
+
 
   </div>
 </body>

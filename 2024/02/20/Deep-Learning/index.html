@@ -84,7 +84,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">0</span>
+            <span class="post-count">30</span>
         </span>
     </span>
 
@@ -106,7 +106,12 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-   
+  <p>课题研究相关，深度学习<br>了解深度学习库和深度学习API的基本功能：</p>
+<ul>
+<li>pytorch</li>
+<li>TensorFlow</li>
+</ul>
+ 
       <!-- reward -->
       
     </div>
@@ -195,7 +200,7 @@
     
       <a href="/2024/02/20/matlab/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Matlab</div>
+        <div class="article-nav-title">Matlab学习笔记</div>
       </a>
     
   </nav>
@@ -552,6 +557,42 @@
 
     
     
+<script>
+  const password = "111222";
+  const lock_password = window.sessionStorage.getItem("lock_password");
+  console.log(password, lock_password);
+  if (lock_password !== password) {
+    Swal.fire({
+      title: "Please enter password",
+      input: "text",
+      inputAttributes: {
+        autocapitalize: "off",
+      },
+      showCancelButton: false,
+      showLoaderOnConfirm: true,
+      allowOutsideClick: false,
+      confirmButtonText: "Ok",
+    }).then((result) => {
+      console.log(result);
+      if (result.isConfirmed) {
+        console.log(password);
+        if (result.value === password) {
+          window.sessionStorage.setItem("lock_password", result.value);
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Incorrect password, please try again",
+            confirmButtonText: "Ok",
+            allowOutsideClick: false,
+          }).then(() => {
+            window.location.reload();
+          });
+        }
+      }
+    });
+  }
+</script>
+
 
   </div>
 </body>
