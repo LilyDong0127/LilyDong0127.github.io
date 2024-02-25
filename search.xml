@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 使用教程--自用版</title>
-    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
-    <content><![CDATA[<ul>
-<li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
-<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
-<li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
-<li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
-<li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
-<li><strong>部署到远端</strong><br><code>hexo deploy</code> 或 <code>hexo d</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Deep Learning</title>
     <url>/2024/02/20/Deep-Learning/</url>
     <content><![CDATA[<p>课题研究相关，深度学习<br>了解深度学习库和深度学习API的基本功能：</p>
@@ -47,15 +28,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Matlab学习笔记</title>
-    <url>/2024/02/20/matlab/</url>
-    <content><![CDATA[<p>matlab</p>
+    <title>Hexo 使用教程--自用版</title>
+    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
+    <content><![CDATA[<ul>
+<li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
+<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
+<li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
+<li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
+<li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
+<li><strong>部署到远端</strong><br><code>hexo deploy</code> 或 <code>hexo d</code></li>
+</ul>
 ]]></content>
       <categories>
-        <category>Matlab</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Matlab</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -165,14 +153,15 @@
       </tags>
   </entry>
   <entry>
-    <title>后端学习</title>
-    <url>/2024/02/20/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
+    <title>Matlab学习笔记</title>
+    <url>/2024/02/20/matlab/</url>
+    <content><![CDATA[<p>matlab</p>
+]]></content>
       <categories>
-        <category>后端学习</category>
+        <category>Matlab</category>
       </categories>
       <tags>
-        <tag>后端学习</tag>
+        <tag>Matlab</tag>
       </tags>
   </entry>
   <entry>
@@ -364,6 +353,22 @@
       </tags>
   </entry>
   <entry>
+    <title>测试开发学习</title>
+    <url>/2024/02/20/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>后端学习</title>
+    <url>/2024/02/20/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端学习</category>
+      </categories>
+      <tags>
+        <tag>后端学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前端学习</title>
     <url>/2024/02/20/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
@@ -373,10 +378,5 @@
       <tags>
         <tag>前端学习</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试开发学习</title>
-    <url>/2024/02/20/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
