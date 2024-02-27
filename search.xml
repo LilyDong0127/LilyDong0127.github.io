@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 使用教程--自用版</title>
-    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
-    <content><![CDATA[<ul>
-<li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
-<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
-<li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
-<li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
-<li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
-<li><strong>部署到远端</strong><br><code>hexo deploy</code> 或 <code>hexo d</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Deep Learning</title>
     <url>/2024/02/20/Deep-Learning/</url>
     <content><![CDATA[<p>课题研究相关，深度学习<br>了解深度学习库和深度学习API的基本功能：</p>
@@ -33,17 +14,6 @@
       </categories>
       <tags>
         <tag>Deep Learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaScript</title>
-    <url>/2024/02/06/javascript/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
@@ -153,6 +123,36 @@
       </tags>
   </entry>
   <entry>
+    <title>JavaScript</title>
+    <url>/2024/02/06/javascript/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 使用教程--自用版</title>
+    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
+    <content><![CDATA[<ul>
+<li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
+<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
+<li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
+<li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
+<li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
+<li><strong>部署到远端</strong><br><code>hexo deploy</code> 或 <code>hexo d</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Matlab学习笔记</title>
     <url>/2024/02/20/matlab/</url>
     <content><![CDATA[<p>matlab</p>
@@ -162,17 +162,6 @@
       </categories>
       <tags>
         <tag>Matlab</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>后端学习</title>
-    <url>/2024/02/20/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端学习</category>
-      </categories>
-      <tags>
-        <tag>后端学习</tag>
       </tags>
   </entry>
   <entry>
@@ -447,16 +436,124 @@
 <h3 id="python3数据结构"><a href="#python3数据结构" class="headerlink" title="python3数据结构"></a>python3数据结构</h3><h3 id="python3模块"><a href="#python3模块" class="headerlink" title="python3模块"></a>python3模块</h3><ul>
 <li>模块是一个包含所有你定义的函数和变量的文件，其后缀名是.py。模块可以被别的程序引入，以使用该模块中的函数等功能。这也是使用 python 标准库的方法。</li>
 <li>import 语句<ul>
-<li></li>
+<li>模块的引入<ul>
+<li>语法：<code>import module1[, module2[,... moduleN]]</code></li>
+<li>引用：<code>模块名.函数名</code></li>
 </ul>
 </li>
 </ul>
+</li>
+<li>from…import 语句<ul>
+<li>语法：<code>from modname import name1[, name2[, ... nameN]]</code></li>
+</ul>
+</li>
+<li>from…import* 语句<ul>
+<li>语法：<code>from modname import *</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="python文件的I-O"><a href="#python文件的I-O" class="headerlink" title="python文件的I&#x2F;O"></a>python文件的I&#x2F;O</h3><ul>
+<li>Python中，I&#x2F;O函数是用于输入和输出操作的函数。这些函数可以让你从文件、网络连接、标准输入等地方读取数据，并将数据写入到文件、网络连接、标准输出等地方</li>
+<li><code>open()</code>: 用于打开文件，可以指定文件名、模式等参数来读取或写入文件。</li>
+<li><code>input()</code>: 用于从标准输入读取用户输入。</li>
+<li><code>print()</code>: 用于将数据输出到标准输出或指定的文件对象。</li>
+<li><code>read()</code>: 用于从文件对象中读取指定数量的字节或全部内容。</li>
+<li><code>write()</code>: 用于将数据写入文件对象。</li>
+<li><code>close()</code>: 用于关闭文件或其他类文件对象，释放资源。</li>
+</ul>
+<h3 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h3><table>
+<thead>
+<tr>
+<th>异常处理概念</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>try-except</td>
+<td>捕获并处理代码中的异常</td>
+</tr>
+<tr>
+<td>异常类型</td>
+<td>Python提供了多种内置的异常类型</td>
+</tr>
+<tr>
+<td>自定义异常</td>
+<td>允许用户创建自定义异常类</td>
+</tr>
+<tr>
+<td>异常处理最佳实践</td>
+<td>应尽可能精确地捕获并处理异常</td>
+</tr>
+<tr>
+<td>调试与异常</td>
+<td>异常处理是调试Python程序的重要工具</td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
         <category>Python</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python高级教程</title>
+    <url>/2024/02/26/python%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="python之面向对象"><a href="#python之面向对象" class="headerlink" title="python之面向对象"></a>python之面向对象</h3><ul>
+<li>面向对象是什么？<ul>
+<li>面向对象编程是一种程序设计规范，以对象作为最基本的程序单元，通过对象之间的交互实现程序。</li>
+<li>每个对象都具有自己的属性(状态)和方法(行为)，通过这些属性和方法，对象可以与其他对象进行交互和通信。</li>
+</ul>
+</li>
+<li>python中的类<ul>
+<li>语法格式：<ul>
+<li><code>class ClassName:   &lt;statement-1&gt;   .   .   .   &lt;statement-N&gt;</code></li>
+</ul>
+</li>
+<li>类对象<ul>
+<li>支持两种操作，属性引用和实例化</li>
+<li>引用语法：<code>obj.name</code> </li>
+<li>类有一个构造方法，<code>__init__()</code>,在类实例化时会自动调用，例如：<code>def __init__(self)           self.data = []</code></li>
+<li>self代表类的实例，而不是类。self可以有效地参与链式调用</li>
+</ul>
+</li>
+<li>继承<ul>
+<li><code>class DerivedClassName(BaseClassName):   &lt;statement-1&gt;   .   .   .   &lt;statement-N&gt;</code></li>
+<li>子类（派生类 DerivedClassName）会继承父类（基类 BaseClassName）的属性和方法。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="python的命名空间-作用域"><a href="#python的命名空间-作用域" class="headerlink" title="python的命名空间&amp;作用域"></a>python的命名空间&amp;作用域</h3><ul>
+<li>命名空间<ul>
+<li>内置名称（built-in names）， Python 语言内置的名称，比如函数名 abs、char 和异常名称 BaseException、Exception 等等。</li>
+<li>全局名称（global names），模块中定义的名称，记录了模块的变量，包括函数、类、其它导入的模块、模块级的变量和常量。</li>
+<li>局部名称（local names），函数中定义的名称，记录了函数的变量，包括函数的参数和局部定义的变量。（类中定义的也是）</li>
+<li>查找顺序：：局部的命名空间 -&gt; 全局命名空间 -&gt; 内置命名空间。</li>
+</ul>
+</li>
+<li>作用域<ul>
+<li>作用域就是一个 Python 程序可以直接访问命名空间的正文区域。</li>
+<li>四种作用域：<ul>
+<li>L（Local）：最内层，包含局部变量，比如一个函数&#x2F;方法内部。</li>
+<li>E（Enclosing）：包含了非局部(non-local)也非全局(non-global)的变量。比如两个嵌套函数，一个函数（或类） A 里面又包含了一个函数 B ，那么对于 B 中的名称来说 A 中的作用域就为 nonlocal。</li>
+<li>G（Global）：当前脚本的最外层，比如当前模块的全局变量。</li>
+<li>B（Built-in）： 包含了内建的变量&#x2F;关键字等，最后被搜索。</li>
+<li>规则顺序： L –&gt; E –&gt; G –&gt; B。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="pymysql"><a href="#pymysql" class="headerlink" title="pymysql"></a>pymysql</h3><p>* </p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -468,6 +565,17 @@
       </categories>
       <tags>
         <tag>前端学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>后端学习</title>
+    <url>/2024/02/20/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端学习</category>
+      </categories>
+      <tags>
+        <tag>后端学习</tag>
       </tags>
   </entry>
   <entry>
