@@ -17,6 +17,36 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo 使用教程--自用版</title>
+    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
+    <content><![CDATA[<ul>
+<li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
+<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
+<li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
+<li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
+<li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
+<li><strong>部署到远端</strong><br><code>hexo deploy</code> 或 <code>hexo d</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript</title>
+    <url>/2024/02/06/javascript/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown 使用教程</title>
     <url>/2024/02/06/markdown-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>段落换行是两个空格以上加上回车<br>段落后面使用一个空行来表示重新开始一个段落</p>
@@ -120,36 +150,6 @@
       </categories>
       <tags>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaScript</title>
-    <url>/2024/02/06/javascript/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo 使用教程--自用版</title>
-    <url>/2024/02/06/Hexo-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E8%87%AA%E7%94%A8%E7%89%88/</url>
-    <content><![CDATA[<ul>
-<li><strong>初始化博客,在指定的文件夹中初始化一个新的博客</strong><br><code>hexo init &lt;folder&gt;</code></li>
-<li><strong>新建文章,可以指定标题</strong><br><code>hexo new &quot;title&quot;</code> </li>
-<li><strong>生成静态文件</strong><br><code>hexo generate</code> 或 <code>hexo g</code> </li>
-<li><strong>启动本地服务器</strong><br><code>hexo server</code> 或 <code>hexo s</code> </li>
-<li><strong>清除缓存文件 (db.json) 和已生成的静态文件 (public)</strong><br><code>hexo clean</code> </li>
-<li><strong>部署到远端</strong><br><code>hexo deploy</code> 或 <code>hexo d</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -498,6 +498,17 @@
       </tags>
   </entry>
   <entry>
+    <title>前端学习</title>
+    <url>/2024/02/20/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python高级教程</title>
     <url>/2024/02/26/python%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h3 id="python之面向对象"><a href="#python之面向对象" class="headerlink" title="python之面向对象"></a>python之面向对象</h3><ul>
@@ -557,15 +568,9 @@
       </tags>
   </entry>
   <entry>
-    <title>前端学习</title>
-    <url>/2024/02/20/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
+    <title>测试开发学习</title>
+    <url>/2024/02/20/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
-      <categories>
-        <category>前端学习</category>
-      </categories>
-      <tags>
-        <tag>前端学习</tag>
-      </tags>
   </entry>
   <entry>
     <title>后端学习</title>
@@ -577,10 +582,5 @@
       <tags>
         <tag>后端学习</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试开发学习</title>
-    <url>/2024/02/20/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
